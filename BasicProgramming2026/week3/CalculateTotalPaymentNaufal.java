@@ -11,11 +11,11 @@ public class CalculateTotalPaymentNaufal {
      double discountCode = 0.15;
      double totalPayment;
 
-     System.out.print("Enter the price of clothes (Rp): ");
+     System.out.print("Enter the price of the clothes (Rp): ");
      price = input.nextDouble();
      
-     discount = price * discountCode;
      totalPayment = price - discount;
+     discount = price * discountCode;
 
      System.out.println("Original Price: Rp " + price);
      System.out.println("Discount (15%): Rp " + discount);

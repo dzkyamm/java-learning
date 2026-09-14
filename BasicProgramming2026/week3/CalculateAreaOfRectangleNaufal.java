@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class CalculateAreaOfRectangleNaufal {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int length;
-        int width;
-        int area;
+        double length;
+        double width;
+        double area;
 
         System.out.print("Enter the length of the rectangle: ");
-        length = input.nextInt();
+        length = input.nextDouble();
         System.out.print("Enter the width of the rectangle: ");
-        width = input.nextInt();
+        width = input.nextDouble();
 
         area = length * width;
         System.out.println("The area of the rectangle is: " + area);
